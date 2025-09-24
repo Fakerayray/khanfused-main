@@ -1,0 +1,120 @@
+.autumn {
+    width: 100vw;
+    height: 100vh;
+    background: url('../Assets/AUTUMN CUTSCENE.svg') no-repeat center center;
+    background-size: contain;
+    background-color: #da7517b9;
+}
+
+
+.autumn-container {
+    position: relative; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+}
+
+.autumn-button-bar {
+    display: flex;
+    gap: 20px; 
+    margin-bottom: 1rem;
+}
+
+
+    .autumn-button-bar button, .player-button, .banish-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        z-index: 2;
+    }
+
+.autumn-button-bar button:hover, banish-button:hover {
+    background-color: #e0e0e0;
+}
+
+.player-button {
+    width: 100%; /* Align with Ready button */
+    height: 2lh;
+    color: black;
+    background-color: grey;
+    display: inline-flex;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0.05rem;
+    white-space: pre;
+}
+
+    .player-button img {
+        height: 100%;
+    }
+
+.banish-button {
+    width: 100%; /* Align with Ready button */
+    height: 2lh;
+    background-color: lightgreen;
+    display: inline-flex;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0.05rem;
+    white-space: pre;
+}
+
+    .banish-button img {
+        height: 100%;
+    }
+
+    .banish-button.selected {
+        background-color: green;
+        font-weight: bold;
+    }
+
+    .banish-button.ineligible {
+        color: black;
+        background-color: grey;
+    }
+
+    .banish-button.banished {
+        color: black;
+        background-color: grey;
+        text-decoration: line-through double 1px;
+    }
+
+    .banish-button.pillaged {
+        color: black;
+        background-color: grey;
+        text-decoration: line-through 2px;
+    }
+
+.banish-container {
+    width: 30vh;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vh;
+    justify-content: center;
+}
+
+.intro-container {
+    position: relative;
+    bottom :1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.autumn-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #db8d07;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+.autumn-subtitle {
+    font-size: 0.8rem;
+}

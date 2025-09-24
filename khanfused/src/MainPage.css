@@ -1,0 +1,52 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-main img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    max-height: 85vh;
+}
+
+.mainPage-container {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 250px;
+}
+
+.mainPage-container button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mainPage-container button:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+@media (max-height: 400px) {
+    .logo-main img {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainPage-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-height: 650px) and (max-width: 400px) {
+    .logo-main img {
+        height: 75vh;
+    }
+}
