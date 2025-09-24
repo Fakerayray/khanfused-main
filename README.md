@@ -69,6 +69,3 @@ When you wish to run multiple instances, you must use this.
   - You must always commit, then pull, before you push.
   - When pulling, Git automatically merges your changes (from your commit) with all the changes that are introduced with the pull. This typically happens without issue, unless two of you edit the same line of code... then you get a _merge conflict_. Resolving them is an art form which I CBA to write about here,
 - `git branch` to switch to a different branch of development.
-
-## 5. Just ask Rick
-You're guaranteed a response within 30 minutes on Mondays and Thursdays, from 9 to 6. I'm contactable at other times, but don't expect quick replies.
