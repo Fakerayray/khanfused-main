@@ -1,4 +1,4 @@
-# Quick Start Guide
+# Khanfused Social Deduction Game Quick Start Guide
 ## 1. Clone the repository
 Use your Git client of choice, or if you don't know any of them, do it my way:
 - Open Command Prompt.
